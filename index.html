@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Portafolio CV - Alex Andres</title>
+    <meta name="description" content="Hola bienvenido a mi Portafolio Profesional">
+    <link rel="canonical" href="">
+    <link rel="icon" href="assets/programador.png">
+    <link rel="apple-touch-icon" href="assets/programador.png">
+    <meta name="theme-color" content="#052659">
+    <!-- Open Graph meta tags for LinkedIn -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Portafolio CV - Alex Andres">
+    <meta property="og:description" content="Hola bienvenido a mi Portafolio Profesional">
+    <meta property="og:image" content="assets/programador.png">
+    <meta property="og:url" content=" ">
+</head>
+
+<body>
+    <header class="header">
+        <section class="container">
+            <div class="logo">
+                <a href="index.html">Alex Andres</a>
+            </div>
+            <div class="container-btn">
+                <div class="dark-btn">
+                    <img id="toggle-icon"  src="assets/moon.svg" alt="Luna" >
+                </div>
+                <button class="menu-btn" aria-label="Abrir menú">
+                    <img src="assets/hamburger-menu-svgrepo-com.svg" alt="Abrir menú" >
+                    <img src="assets/close-x_svgrepo.com.svg" alt="Cerrar" class="none">
+                </button>   
+            </div>
+            <nav class="menu">
+                <a href="#inicio">Inicio</a>
+                <a href="#acerca">Sobre mí</a>
+                <a href="#proyectos">Proyectos</a>
+                <a href="#contacto">Contacto</a>
+            </nav>
+        </section>
+    </header>
+    <section id="inicio" class="home">
+        <article class="hero-image" style="--hero-image: url('assets/banner.jpg'); --hero-attachment: fixed;">
+            <aside class="hero-image-opacity" style="--hero-opacity-color: var(--black-alpha-color);">
+                <div class="hero-image-content">
+                    <h2 class="hero-image-title animated-text" style="--hero-text-color: var(--white-color);">
+                        Bienvenidos a mi <br>portafolio
+                    </h2>
+                    <a href="assets/CV- Alex Andres.pdf" class="btn" download="CV-Alex-Andres">Descargar CV</a>
+                </div>
+            </aside>
+        </article>
+    </section>
+    <section id="acerca" class="about section container full-lg-screen">
+        <article class="text-center">
+            <aside>
+                <h1 class="section-title"> Sobre mí </h1>
+            </aside>
+            <p class="size-text">¡Hola! Soy Programador <i>web</i> más orientado al Frontend, pero también hago Backend.</p>
+            <p class="size-text">Disfruto creando y diseñando interfaces <i>web</i> atractivas y funcionales, utilizando tecnologías como HTML, CSS y JavaScript.</p>
+        </article>
+        <article class=" text-center">
+            <h2>Educación</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <h3>Cent 40</h3>
+                    <p>2020-2023</p>
+                    <p>Técnico en análisis y desarrollo en sistemas informáticos</p>
+                </div>
+                <div class="timeline-item">
+                    <h3>ITMaster - Argentina programa</h3>
+                    <p>2023</p>
+                    <p>Curso de programación web HTML, CSS y JavaScript</p>
+                </div>
+                <div class="timeline-item">
+                    <h3>Punto Digital</h3>
+                    <p>2023</p>
+                    <p>Curso de desarrollo de videojuegos - programación en Godot</p>
+                </div>
+            </div>
+        </article>
+        <article class="text-center">
+            <h2>Habilidades</h2>
+            <div class="skills-background">
+                <div class="skills-container">
+                    <img src="assets/html-5_svgrepo.com.svg" alt="HTML" title="HTML">
+                    <img src="assets/css-3_svgrepo.com.svg" alt="CSS" title="CSS">
+                    <img src="assets/js-official_svgrepo.com.svg" alt="JavaScript" title="JavaScript">
+                    <img src="assets/git_svgrepo.com.svg" alt="Git" title="Git">
+                    <img src="assets/github-142_svgrepo.com.svg" alt="GitHub" title="GitHub">
+                    <img src="assets/bootstrap_svgrepo.com.svg" alt="Bootstrap" title="Bootstrap">
+                    <img src="assets/react_svgrepo.com.svg" alt="React" title="React">
+                    <img src="assets/nodejs-icon_svgrepo.com.svg" alt="Node.js" title="Node.js">
+                    <img src="assets/figma_svgrepo.com.svg" alt="Figma" title="Figma">
+                </div>
+            </div>
+        </article>
+    </section>
+    <section id="proyectos" class="project section">
+        <div class="container">
+            <h2 class="section-title">Mis Trabajos</h2>
+            <a href="#trabajo-1" class="project-card">
+                <img src="assets/proyecto1.png" alt="Proyecto 1">
+                <aside class="project-card-info">
+                    <div>
+                        <h3>ps2gamemaster</h3>
+                        <p>
+                            Este sitio web está diseñado completamente en HTML y CSS...
+                        </p>
+                        <p>Ver más</p>
+                    </div>
+                </aside>
+            </a>
+            <a href="#trabajo-2" class="project-card">
+                <img src="assets/proyecto2.png" alt="Proyecto 2">
+                <aside class="project-card-info">
+                    <div>
+                        <h3>TechSoluciones</h3>
+                        <p>Desarrollé una landing page a modo de práctica utilizando Bootstrap...</p>
+                        <p>Ver más</p>
+                    </div>
+                </aside>
+            </a>
+            <a href="#trabajo-3" class="project-card">
+                <img src="assets/proyecto3.png" alt="Proyecto 3">
+                <aside class="project-card-info">
+                    <div>
+                        <h3>Studio-BadDog</h3>
+                        <p>Al trabajar en este sitio multipágina, adquirí experiencia en la creación...</p>
+                        <p>Ver Más</p>
+                    </div>
+                </aside>
+            </a>
+        </div>
+    </section>
+        <article class="modal" id="trabajo-1">
+            <div class="modal-content">
+                <a href="#cerrar" class="modal-close">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                        <path
+                            d="M12,2C6.486,2,2,6.486,2,12s4.486,10,10,10s10-4.486,10-10S17.514,2,12,2z M16.207,14.793l-1.414,1.414L12,13.414 l-2.793,2.793l-1.414-1.414L10.586,12L7.793,9.207l1.414-1.414L12,10.586l2.793-2.793l1.414,1.414L13.414,12L16.207,14.793z" />
+                    </svg>
+                </a>
+                <article class="project-modal">
+                    <img src="assets/proyecto1.png" alt="Trabajo 1">
+                    <div class="project-info">
+                        <h3>ps2gamemaster</h3>
+                        <p>Este sitio web está diseñado completamente en HTML y CSS, centrado en un tema nostálgico para los fanáticos de los videojuegos. A través de este proyecto, mejoré mis habilidades en la creación de layouts usando solo HTML y CSS, y aprendí a optimizar el código para mejorar tanto la velocidad de carga como la experiencia de usuario en diferentes dispositivos</p>
+                        <aside class="project-details">
+                            <small><b>HERRAMIENTAS:</b></small>
+                            <small>HTML y CSS</small>
+                            <small><b>FECHA:</b></small>
+                            <small>16/03/2024</small>
+                            <small><b>TIPO:</b></small>
+                            <small>Landing Page estatico</small>
+                            <small><b>ENLACE:</b></small>
+                            <small><a href="https://ps2gamemaster.netlify.app/" target="_blank"
+                                    rel="noopener">ps2gamemaster</a></small>
+                        </aside>
+                    </div>
+                </article>
+            </div>
+        </article>
+        <article class="modal" id="trabajo-2">
+            <div class="modal-content">
+                <a href="#cerrar" class="modal-close">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                        <path
+                            d="M12,2C6.486,2,2,6.486,2,12s4.486,10,10,10s10-4.486,10-10S17.514,2,12,2z M16.207,14.793l-1.414,1.414L12,13.414 l-2.793,2.793l-1.414-1.414L10.586,12L7.793,9.207l1.414-1.414L12,10.586l2.793-2.793l1.414,1.414L13.414,12L16.207,14.793z" />
+                    </svg>
+                </a>
+                <article class="project-modal">
+                    <img src="assets/proyecto2.png" alt="Trabajo 1">
+                    <div class="project-info">
+                        <h3>TechSoluciones</h3>
+                        <p>Desarrollé una landing page a modo de práctica utilizando Bootstrap, que se enfoca en ofrecer soluciones tecnológicas. El diseño es completamente responsive, con secciones dedicadas a los servicios, testimonios de clientes y un formulario de contacto.</p>
+                        <aside class="project-details">
+                            <small><b>HERRAMIENTAS:</b></small>
+                            <small>Figma, HTML, CSS, Bootstrap y JS</small>
+                            <small><b>FECHA:</b></small>
+                            <small>15/10/2024</small>
+                            <small><b>TIPO:</b></small>
+                            <small>Landing Page</small>
+                            <small><b>ENLACE:</b></small>
+                            <small><a href="https://alex831612.github.io/tech-soluciones/TechSoluciones/#inicio" target="_blank"
+                                    rel="noopener">TechSoluciones</a></small>
+                        </aside>
+                    </div>
+                </article>
+            </div>
+        </article>
+        <article class="modal" id="trabajo-3">
+            <div class="modal-content">
+                <a href="#cerrar" class="modal-close">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                        <path
+                            d="M12,2C6.486,2,2,6.486,2,12s4.486,10,10,10s10-4.486,10-10S17.514,2,12,2z M16.207,14.793l-1.414,1.414L12,13.414 l-2.793,2.793l-1.414-1.414L10.586,12L7.793,9.207l1.414-1.414L12,10.586l2.793-2.793l1.414,1.414L13.414,12L16.207,14.793z" />
+                    </svg>
+                </a>
+                <article class="project-modal">
+                    <img src="assets/proyecto3.png" alt="Trabajo 1">
+                    <div class="project-info">
+                        <h3>Studio BadDog</h3>
+                        <p>Al trabajar en este sitio multipágina, adquirí experiencia en la creación de estructuras web más complejas y mejoré mis habilidades en la navegación entre secciones y páginas. También desarrollé un mejor entendimiento de cómo presentar múltiples servicios de manera clara y convincente.</p>
+                        <aside class="project-details">
+                            <small><b>HERRAMIENTAS:</b></small>
+                            <small>HTML, CSS y Bootstrap</small>
+                            <small><b>FECHA:</b></small>
+                            <small>15/10/2024</small>
+                            <small><b>TIPO:</b></small>
+                            <small>Multiple Page</small>
+                            <small><b>ENLACE:</b></small>
+                            <small><a href="https://studio-baddog.netlify.app/" target="_blank"
+                                    rel="noopener">Studio BadDog</a></small>
+                        </aside>
+                    </div>
+                </article>
+            </div>
+        </article>
+    <section id="contacto" class="contact section">
+        <div class="container">
+            <h2 class="section-title"> Contacto </h2>
+            <form class="contact-form box-shadow-1">
+                <input type="text" name="name" placeholder="Ingresa tu nombre *"
+                    title="Nombre sólo acepta letras y espacios en blanco" pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$" required>
+                <input type="email" name="email" placeholder="Ingresa tu correo *" title="Email incorrecto"
+                    pattern="^[a-z0-9]+(\.[_a-z0-9]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,15})$" required>
+                <textarea name="comments" cols="50" rows="10" placeholder="Escribe tu mensaje" required></textarea>
+                <div class="contact-form-loader text-center none">
+                    <img src="assets/loader-circle-svgrepo-com.svg" alt="Enviando...">
+                </div>
+                <input class="btn" type="submit" value="Enviar">
+            </form>
+            <article id="gracias" class="modal">
+                <div class="modal-content">
+                    <article class="contact-form-response">
+                        <h3>
+                            ¡Muchas Gracias!
+                            <br>
+                            Por tu mensaje
+                        </h3>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                            <path d="M12,18c4,0,5-4,5-4H7C7,14,8,18,12,18z" />
+                            <path
+                                d="M12,2C6.486,2,2,6.486,2,12c0,5.514,4.486,10,10,10s10-4.486,10-10C22,6.486,17.514,2,12,2z M12,20c-4.411,0-8-3.589-8-8 s3.589-8,8-8s8,3.589,8,8S16.411,20,12,20z" />
+                            <path
+                                d="M13 12l2 .012C15.012 11.55 15.194 11 16 11s.988.55 1 1h2c0-1.206-.799-3-3-3S13 10.794 13 12zM8 11c.806 0 .988.55 1 1h2c0-1.206-.799-3-3-3s-3 1.794-3 3l2 .012C7.012 11.55 7.194 11 8 11z" />
+                        </svg>
+                    </article>
+                </div>
+            </article>
+        </div>
+    </section>
+    <footer class="footer">
+        <small>Desarrollado por Alex Andres</small>
+        <div class="social-icons">
+            <a href="mailto:andresalex983@gmail.com"><img src="assets/email-1572_svgrepo.com.svg" alt="Email"></a>
+            <a href="https://github.com/Alex831612" target="_blank"><img src="assets/github-footer.svg" alt="GitHub"></a>
+            <a href="https://www.linkedin.com/in/al3ex-andres/" target="_blank"><img src="assets/linkedin_svgrepo.com.svg" alt="LinkedIn"></a>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
